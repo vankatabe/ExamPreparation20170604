@@ -27,7 +27,7 @@ namespace FinAZip
 
             // Add AdBlock plugin and start Chrome with plugin enabled
             ChromeOptions options = new ChromeOptions();
-            options.AddExtension(@"..\..\Extensions\adblock_chrome.crx");
+            options.AddExtension(@"C:\Extensions\adblock_chrome.crx");
             ChromeDriver driver = new ChromeDriver(options);
 
             driver.Manage().Window.Maximize();
